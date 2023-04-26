@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn sec_analyzer.wsgi
+web: python manage.py migrate && gunicorn core.wsgi
